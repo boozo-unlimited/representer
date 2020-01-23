@@ -1,12 +1,23 @@
 {
   "name": "representer",
   "version": "0.1.0",
-  "private": true,
   "license": "MIT",
+  "author": {
+    "name": "Boozo Unlimited"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/boozo-unlimited/representer"
   },
+  "keywords": [
+    "representer",
+    "presenter",
+    "presentation",
+    "slideshow",
+    "slides",
+    "react",
+    "redux"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
