@@ -1,6 +1,6 @@
 # Representer
 
-React based framework to create a slide show online.
+React-based framework to create a slide show online.
 
 # Development
 
