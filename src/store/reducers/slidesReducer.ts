@@ -1,5 +1,6 @@
 import { SLIDE_NEXT, SLIDE_PREV, SET_SLIDE_COUNT, SLIDE_FIRST, SLIDE_LAST } from '../actions/types'
 import { SlideAction } from '../actions/slideActions'
+import { PERSIST, REHYDRATE } from 'redux-persist';
 
 export interface SlidesStore {
     slides: SlidesState;
@@ -57,8 +58,13 @@ export default function (state = initialState, action: SlideAction) {
                     currentSlide: lastSlide
                 };
             }
+        case PERSIST:
+            return state;
+        case REHYDRATE:
+            return state;
         default:
-            console.log('Unknown action');
+            if (!"@@INIT")
+                console.log('Unknown action');
             return state;
     }
 }

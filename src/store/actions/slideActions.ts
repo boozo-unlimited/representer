@@ -1,8 +1,9 @@
+import { PERSIST, REHYDRATE } from 'redux-persist'
 import { SET_SLIDE_COUNT, SLIDE_FIRST, SLIDE_NEXT, SLIDE_PREV, SLIDE_LAST } from './types'
 export { SET_SLIDE_COUNT, SLIDE_FIRST, SLIDE_NEXT, SLIDE_PREV, SLIDE_LAST } from './types'
 
 export interface SlideAction {
-    type: typeof SLIDE_NEXT | typeof SLIDE_FIRST | typeof SLIDE_PREV | typeof SET_SLIDE_COUNT | typeof SLIDE_LAST;
+    type: typeof SLIDE_NEXT | typeof SLIDE_FIRST | typeof SLIDE_PREV | typeof SET_SLIDE_COUNT | typeof SLIDE_LAST | typeof PERSIST | typeof REHYDRATE;
     payload?: any;
 }
 
