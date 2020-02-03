@@ -1,13 +1,27 @@
 body {
   margin: 0;
+  padding: 0 1.1vmin 0 1.1vmin;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;                     /* https://stackoverflow.com/a/19308332 */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: 8vmin;
+  margin-top: 1.2vmin;
+  margin-bottom: 1.2vmin;
+}
+
+p {
+  font-size: 4vmin;
+  margin-top: 1.2vmin;
+  margin-bottom: 1.2vmin;
 }

@@ -1,6 +1,37 @@
 # Representer
 
-React-based framework to create a slide show online.
+React-based framework to create a slide show.
+
+# How to Install
+
+## From github
+
+You can directly download the project from [github](https://github.com/boozo-unlimited/representer).
+Either download the ZIP file containing the whole project or `git clone` it from the command
+line using [git](https://git-scm.com/downloads). After installing _git_, open a console and
+execute the following command:
+```
+git clone https://github.com/boozo-unlimited/representer.git
+```
+Cd into the folder and initialize the project using [npm](https://www.npmjs.com/get-npm):
+```
+cd representer
+npm install
+```
+
+There are already some example slides present in the _src/slides_ folder. You can see them
+in a browser by executing the following command:
+```
+npm start
+```
+
+## From npm
+In case you want to integrate a slide show into an existing project you can download and 
+install the _representer_ package directly from [npm](https://www.npmjs.com):
+
+```
+npm install --save @boozo-unlimited/representer
+```
 
 # Development
 
