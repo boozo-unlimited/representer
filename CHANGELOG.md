@@ -1,6 +1,6 @@
 ## Change Log
 
-### 0.1.1 (2020-02-03)
+### 0.1.2 (2020-02-03)
 - Now reloading the browser does no more affect the actual slide number  
   (added [redux](https://github.com/reduxjs/redux) and [redux-presist](https://github.com/rt2zz/redux-persist))
 - Pressing the _space_ keyboard key now shows next slide
